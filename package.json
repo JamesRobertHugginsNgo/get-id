@@ -5,13 +5,19 @@
   "main": "get-id.js",
   "type": "module",
   "scripts": {
-    "test": "node get-id-test.js"
+    "build": "webpack --config webpack.config.js --mode production",
+    "test": "node get-id.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.51.0",
-    "test-group": "github:JamesRobertHugginsNgo/test-group"
+    "test-group": "github:JamesRobertHugginsNgo/test-group#1.2.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "package-lock-only": "^0.0.4"
   }
 }
