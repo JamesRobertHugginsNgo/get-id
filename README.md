@@ -5,7 +5,7 @@ Returns a unique ID for a given prefix.
 ## Installation
 
 ```
-npm install --save git+https://github.com/JamesRobertHugginsNgo/get-id.git#1.2.0
+npm install git+https://github.com/JamesRobertHugginsNgo/get-id.git#1.2.0
 ```
 
 ## Usage
