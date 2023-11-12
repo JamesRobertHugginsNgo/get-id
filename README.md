@@ -12,8 +12,7 @@ npm install git+https://github.com/JamesRobertHugginsNgo/get-id.git#1.2.0
 
 Argument | Type | Description
 -- | -- | --
-`description` | `string` | Test description.
-`func` | `function` | Test code. Return `true` for pass, `false` for fail, and any other value for unknown. Return a `Promise` to have `test` return a `Promise`.
+`prefix` | `string` | _Optional_. ID prefix. Defaults to an empty string.
 
 Returns `string`.
 
