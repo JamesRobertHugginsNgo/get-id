@@ -1,6 +1,6 @@
 import { testGroup, test } from 'test-group';
 
-import getId from './get-id.js';
+import getId from '../get-id.js';
 
 testGroup('Generate ID With No Prefix', () => {
 	const id = getId();
