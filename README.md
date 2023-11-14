@@ -12,9 +12,9 @@ npm install git+https://github.com/JamesRobertHugginsNgo/get-id.git#1.2.0
 
 Argument | Type | Description
 -- | -- | --
-`prefix` | `string` | _Optional_. ID prefix. Defaults to an empty string.
+`prefix` | `string` | _Optional_. ID prefix. _Defaults to `''`_.
 
-Returns `string`.
+Return type: `string`.
 
 ``` JavaScript
 import getId from 'get-id';
