@@ -5,7 +5,7 @@ JavaScript function for creating a series of unique IDs.
 ## NPM Installation
 
 ```
-npm install git+https://github.com/JamesRobertHugginsNgo/get-id.git#1.2.0
+npm install git+https://github.com/JamesRobertHugginsNgo/get-id.git#1.3.0
 ```
 
 ## Function: getId(prefix)
